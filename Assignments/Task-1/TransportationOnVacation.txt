@@ -1,0 +1,13 @@
+//https://www.codewars.com/kata/568d0dd208ee69389d000016/train/javascript
+
+function rentalCarCost(d) {
+var total = (d*40);
+  if (d >= 7) {
+    total = total-50;
+  } else if (d >= 3) {
+    total = total-20;
+  }else {
+    total = total;
+  }
+  return total;
+}

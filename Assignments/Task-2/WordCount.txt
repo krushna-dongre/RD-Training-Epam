@@ -1,0 +1,13 @@
+//https://www.codewars.com/kata/570cc83df616a85944001315/train/javascript
+
+function countWords(str) {
+var result;
+  var resultString = str.match(/\S+/g);
+  if(resultString != null) {
+    result = resultString.length;
+  } else {
+     result = 0;
+   } 
+  return result;
+  
+}

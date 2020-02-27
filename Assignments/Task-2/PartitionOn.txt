@@ -1,0 +1,11 @@
+//https://www.codewars.com/kata/525a037c82bf42b9f800029b/train/javascript
+
+
+function partitionOn(pred, items) {
+  var trueArray = items.filter((x) => pred(x));
+  var falseArray = items.filter((x) => !pred(x));
+  items.splice(0, falseArray.length,...falseArray);
+  items.splice(falseArray.length, trueArray.length,...trueArray);
+  
+  return  falseArray.length;
+}
