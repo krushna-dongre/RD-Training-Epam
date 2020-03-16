@@ -1,5 +1,5 @@
 // Function Cache
-// http://www.codewars.com/kata/a-chain-adding-function
+// https://www.codewars.com/kata/function-cache
 
 function cache(func) {
     var memory = {};
