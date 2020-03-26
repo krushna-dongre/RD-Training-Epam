@@ -3,13 +3,13 @@
 
 function prefill(n, v) {
  
-  if(isNaN(Number.parseInt(n)) ||(n % 1 !== 0) || n < 0)
-    throw new TypeError(n+' is invalid');
-  else if(n == 0)
-      return [];
-  else {
-  var array = new Array(n);
-  return array.fill(v);
+  if(isNaN(Number.parseInt(n)) ||(n % 1 !== 0) || n < 0){
+    	throw new TypeError(n+' is invalid');
+  } else if(n == 0) {
+      	return [];
+  } else {
+  	var array = new Array(n);
+  	return array.fill(v);
   }
   
 }
