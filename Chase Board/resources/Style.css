@@ -1,7 +1,7 @@
 /*Style.css */
 .container{
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
     background-color:black;
     margin: 65px auto;
     border: 10px solid rgb(12, 0, 0);
@@ -13,18 +13,18 @@
     vertical-align:middle;
     font-size:50px;
     text-align:center;
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
  }
- .Black{
+ .black{
     float: left;
     background-color: rgb(53, 51, 51);
     display: table-cell;
     vertical-align:middle;
     font-size:50px;
     text-align:center;
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
  }
 
 
