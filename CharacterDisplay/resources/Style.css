@@ -4,21 +4,22 @@
     padding: 0px;
 }
 .container{
-    height: 800px;
-    width: 800px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
     background-color:rgb(184, 84, 2);
     margin: 65px auto;
     border: 10px solid rgb(12, 0, 0);
 }
  .half-circle {
-    width: 600px;
-    height: 300px; /* as the half of the width */
-    border-top-left-radius: 200px;  /* 100px of height + 10px of border */
-    border-top-right-radius: 200px; /* 100px of height + 10px of border */
+    width: 400px;
+    height: 200px; /* as the half of the width */
+    border-top-left-radius: 150px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 150px; /* 100px of height + 10px of border */
     border: 40px solid rgb(248, 243, 243);
     transform: rotate(90deg);
-    margin-top: 210px;
-    margin-left: 75px;
+    margin-top: 160px;
 }
 
 
