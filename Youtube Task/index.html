@@ -1,36 +1,42 @@
-<!DOCTYPE html5>
+<!DOCTYPE html>
 <html>
-	<head>
-        <title>Youtube Page</title>
-        <link rel = "icon" href =  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Youtube_Music_logo.svg/1200px-Youtube_Music_logo.svg.png" type = "image/x-icon">
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="Script.js"></script>
-        <link rel = "stylesheet" type = "text/css" href = "Style.css" />
-	</head>
-	<body onload="triggerSearchButton()">
-        <div class="mainDiv">
-		<header>
+
+<head>
+    <title>Youtube Page</title>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Youtube_Music_logo.svg/1200px-Youtube_Music_logo.svg.png"
+        type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+</head>
+
+<body>
+    <div class="mainDiv">
+        <header>
             <div class="flex-container">
-                <img src="images/logo.png" alt="YouTube" id="logo">
+                <img src="images/logo.png" alt="YouTube" id="logo" />
                 <div id="search-tab">
-                    <input id="search-data" type="text" placeholder="Search.." name="search">
-                    <button class="search-button" id = "search-btn"onclick="fetchData()"><i class="fa fa-search" aria-hidden="true"></i></button>
-                </div>   
-                 <div class="buttons">
-                    <button class="search-button" onclick="previous()">Previous</button>
-                    <button class="search-button" onclick="next()">Next</button>             
-                 </div>    
+                    <input id="search-data" type="text" placeholder="Search.." name="search"/>
+                    <button class="search-button" id="search-btn" onclick="youTuberSearchHelper.fetchData()"><i
+                            class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <div class="buttons">
+                    <button class="search-button" onclick="youTuberSearchHelper.previous()">Previous</button>
+                    <button class="search-button" onclick="youTuberSearchHelper.next()">Next</button>
+                </div>
             </div>
         </header>
         <main id="main">
-            
+
         </main>
-            <footer>
-				<h3 align=center>@Krushna Dongre YouTube</h3>
-            </footer>
+        <footer>
+            <h3 align=center>@Krushna Dongre YouTube</h3>
+        </footer>
     </div>
-	</body>
+    <script src="Script.js"></script>
+</body>
+
 </html>
